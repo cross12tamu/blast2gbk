@@ -12,13 +12,13 @@ Method(s) that from a BLASTp, and from the HSP protein accessions, retrieve the 
 ## Script:
 Several Parts:
 
-I) Fetch FASTA file based on desired protein for BLASTp
+1) Fetch FASTA file based on desired protein for BLASTp
 
-II) Run BLASTp with fetched FASTA file
+2) Run BLASTp with fetched FASTA file
 
-III) Parse BLASTp Results
+3) Parse BLASTp Results
 
-IV) IDentify "best" method from GBK file retrieval
+4) IDentify "best" method from GBK file retrieval
 
     a) esearch
   
@@ -26,7 +26,7 @@ IV) IDentify "best" method from GBK file retrieval
   
     c) efetch
   
-V) FASTA export (if desired)
+5) FASTA export (if desired)
 
 ## Jupyter Notebook:
 * Mostly the same as the `retrieveGBK.py` script; but contains more notes and description than the script.
